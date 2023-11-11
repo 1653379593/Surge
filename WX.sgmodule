@@ -1,0 +1,10 @@
+#!name=微信
+#!desc=微信
+#!system=ios
+
+[rewrite_local]
+#微信自动阅读
+^https?://mp\.weixin\.qq\.com/s.+? url response-body </script> response-body setTimeout(()=>window.history.back(),7000); </script>
+
+[mitm]
+hostname = mp.weixin.qq.com
