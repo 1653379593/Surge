@@ -16,11 +16,11 @@ proxy-groups:
   - {name: 𝐅𝐢𝐧𝐚𝐥, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐉𝐏, 𝐓𝐖, 𝐔𝐒, 𝐒𝐆], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
   
 #节点分组
-  - {name: 𝐇𝐊, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "港|HK(?i)Hong", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }             
-  - {name: 𝐉𝐏, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "日|东京|JP(?i)Japan", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
-  - {name: 𝐓𝐖, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "台|湾|TW(?i)Taiwan", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png }
-  - {name: 𝐔𝐒, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "美|US(?i)States|American", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
-  - {name: 𝐒𝐆, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "新|坡|SG(?i)Singapore", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png }
+  - {name: 𝐇𝐊, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)香港|Hong Kong|HK|🇭🇰", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }             
+  - {name: 𝐉𝐏, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)日本|Japan|JP|🇯🇵", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
+  - {name: 𝐓𝐖, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)台湾|Taiwan|TW|🇹🇼", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png }
+  - {name: 𝐔𝐒, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)美国|USA|US|🇺🇸", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
+  - {name: 𝐒𝐆, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)新加坡|Singapore|SG|🇸🇬", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png }
 
 # 分流规则 
 rule-providers:
