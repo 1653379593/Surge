@@ -85,28 +85,28 @@ proxy-groups:
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium
-    filter: (?i)台湾|Taiwan|🇹🇼
+    filter: (?i)台湾|Taiwan|TW|🇹🇼
     name: TW AUTO
     type: url-test
     interval: 300
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium
-    filter: (?i)新加坡|Singapore|🇸🇬
+    filter: (?i)新加坡|Singapore|SG|🇸🇬
     name: SG AUTO
     type: url-test
     interval: 300
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium
-    filter: (?i)日本|Japan|🇯🇵
+    filter: (?i)日本|Japan|JP|🇯🇵
     name: JP AUTO
     type: url-test
     interval: 300
   - icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
     include-all: true
     exclude-filter: (?i)GB|Traffic|Expire|Premium
-    filter: (?i)美国|USA|🇺🇸
+    filter: (?i)美国|USA|US|🇺🇸
     name: US AUTO
     type: url-test
     interval: 300
