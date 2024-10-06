@@ -5,22 +5,22 @@ proxy-groups:
   - {name: 𝐒𝐞𝐥𝐞𝐜𝐭, type: select, include-all: true, icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png }
   - {name: 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢, type: select, proxies: [𝐇𝐊, 𝐓𝐖, DIRECT], icon: https://ghp.ci/https://github.com/Orz-3/face/blob/master/Bili.png }
   - {name: 𝐁𝐚𝐡𝐚𝐦𝐮𝐭, type: select, proxies: [𝐓𝐖], icon: https://ghp.ci/https://github.com/Orz-3/mini/blob/master/Color/Bahamut.png }
-  - {name: 𝐓𝐰𝐢𝐭𝐜𝐡, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, 𝐇𝐊, 𝐉𝐏, 𝐓𝐖, 𝐔𝐒, 𝐒𝐆], icon: https://ghp.ci/https://github.com/1653379593/The-picture/blob/master/Twitch.png }
-  - {name: 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐉𝐏, 𝐓𝐖, 𝐔𝐒, 𝐒𝐆], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐉𝐏, 𝐓𝐖, 𝐔𝐒, 𝐒𝐆], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png }
-  - {name: 𝐆𝐥𝐨𝐛𝐚𝐥, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, 𝐇𝐊, 𝐉𝐏, 𝐓𝐖, 𝐔𝐒, 𝐒𝐆], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
-  - {name: 𝐆𝐀𝐌𝐄, type: select, proxies: [DIRECT, 𝐒𝐞𝐥𝐞𝐜𝐭, 𝐀𝐮𝐭𝐨, 𝐇𝐊, 𝐉𝐏, 𝐓𝐖, 𝐔𝐒, 𝐒𝐆], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png }
+  - {name: 𝐓𝐰𝐢𝐭𝐜𝐡, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://github.com/1653379593/The-picture/blob/master/Twitch.png }
+  - {name: 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
+  - {name: 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png }
+  - {name: 𝐆𝐥𝐨𝐛𝐚𝐥, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
+  - {name: 𝐆𝐀𝐌𝐄, type: select, proxies: [DIRECT, 𝐒𝐞𝐥𝐞𝐜𝐭, 𝐀𝐮𝐭𝐨, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png }
   - {name: 𝐎𝐩𝐞𝐧𝐀𝐢,   type: select, proxies: [𝐔𝐒, 𝐒𝐞𝐥𝐞𝐜𝐭], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
-  - {name: 𝐆𝐨𝐨𝐠𝐥𝐞, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐉𝐏, 𝐓𝐖, 𝐔𝐒, 𝐒𝐆], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
+  - {name: 𝐆𝐨𝐨𝐠𝐥𝐞, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
 #  - {name: 𝐀𝐝𝐁𝐥𝐨𝐜𝐤,  type: select, proxies: [REJECT, DIRECT], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png }
-  - {name: 𝐅𝐢𝐧𝐚𝐥, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐉𝐏, 𝐓𝐖, 𝐔𝐒, 𝐒𝐆], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
+  - {name: 𝐅𝐢𝐧𝐚𝐥, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png }
   
 #节点分组
-  - {name: 𝐇𝐊, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)香港|Hong Kong|HK|🇭🇰", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }             
-  - {name: 𝐉𝐏, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)日本|Japan|JP|🇯🇵", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
+  - {name: 𝐇𝐊, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)香港|Hong Kong|HK|🇭🇰", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }
   - {name: 𝐓𝐖, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)台湾|Taiwan|TW|🇹🇼", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png }
-  - {name: 𝐔𝐒, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)美国|USA|US|🇺🇸", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
   - {name: 𝐒𝐆, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)新加坡|Singapore|SG|🇸🇬", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png }
+  - {name: 𝐉𝐏, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)日本|Japan|JP|🇯🇵", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
+  - {name: 𝐔𝐒, type: url-test, include-all: true, interval: 300, tolerance: 50,  filter: "(?i)美国|USA|US|🇺🇸", icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
 
 # 分流规则 
 rule-providers:
