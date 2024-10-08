@@ -1,7 +1,7 @@
 proxy-groups:
 #分流分组
   - {name: 𝐏𝐑𝐎𝐗𝐘, type: select, proxies: [𝐀𝐮𝐭𝐨,𝐒𝐞𝐥𝐞𝐜𝐭], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
-  - {name: 𝐀𝐮𝐭𝐨, type: url-test, include-all: true, interval: 300, tolerance: 50,  icon: https://ghp.ci/https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
+  - {name: 𝐀𝐮𝐭𝐨, type: url-test, include-all: true, interval: 300, tolerance: 50, exclude-filter: (?i)台湾|Taiwan|TW|🇹🇼 ,  icon: https://ghp.ci/https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
   - {name: 𝐒𝐞𝐥𝐞𝐜𝐭, type: select, include-all: true, icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png }
   - {name: 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢, type: select, proxies: [𝐇𝐊, 𝐓𝐖, DIRECT], icon: https://ghp.ci/https://github.com/Orz-3/face/blob/master/Bili.png }
   - {name: 𝐁𝐚𝐡𝐚𝐦𝐮𝐭, type: select, proxies: [𝐓𝐖], icon: https://ghp.ci/https://github.com/Orz-3/mini/blob/master/Color/Bahamut.png }
