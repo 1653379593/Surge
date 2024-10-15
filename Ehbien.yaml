@@ -11,7 +11,7 @@ proxy-groups:
   - {name: 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
   - {name: 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png }
   - {name: 𝐆𝐥𝐨𝐛𝐚𝐥, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
-  - {name: 𝐆𝐀𝐌𝐄, type: select, proxies: [DIRECT, 𝐒𝐞𝐥𝐞𝐜𝐭, 𝐀𝐮𝐭𝐨, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png }
+  - {name: 𝐆𝐀𝐌𝐄, type: select, proxies: [DIRECT, 𝐀𝐮𝐭𝐨, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png }
   - {name: 𝐎𝐩𝐞𝐧𝐀𝐢, type: select, proxies: [𝐔𝐒, 𝐒𝐞𝐥𝐞𝐜𝐭], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
   - {name: 𝐆𝐨𝐨𝐠𝐥𝐞, type: select, proxies: [𝐏𝐑𝐎𝐗𝐘, DIRECT, 𝐇𝐊, 𝐓𝐖, 𝐒𝐆, 𝐉𝐏, 𝐔𝐒], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
 # - {name: 𝐀𝐝𝐁𝐥𝐨𝐜𝐤, type: select, proxies: [REJECT, DIRECT], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png }
