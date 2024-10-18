@@ -50,12 +50,12 @@ rules:
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
   - RULE-SET,Twitch,𝐓𝐰𝐢𝐭𝐜𝐡
   - RULE-SET,GlobalMedia,𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠
-  - RULE-SET,Github,𝐏𝐑𝐎𝐗𝐘
-  - RULE-SET,Microsoft,𝐏𝐑𝐎𝐗𝐘
+  - RULE-SET,Github,𝐆𝐨𝐨𝐠𝐥𝐞
+  - RULE-SET,Microsoft,𝐆𝐨𝐨𝐠𝐥𝐞
   - RULE-SET,Google,𝐆𝐨𝐨𝐠𝐥𝐞
   - RULE-SET,Telegram,𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
   - RULE-SET,Game,𝐆𝐀𝐌𝐄
-  - RULE-SET,ProxyLite,𝐏𝐑𝐎𝐗𝐘
+  - RULE-SET,ProxyLite,𝐆𝐨𝐨𝐠𝐥𝐞
   - RULE-SET,ChinaIP,DIRECT
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
