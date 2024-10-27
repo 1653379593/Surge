@@ -1,6 +1,6 @@
 proxy-groups:
 #分流分组
-  - {name: 𝐏𝐑𝐎𝐗𝐘, type: select, proxies: [𝐀𝐮𝐭𝐨,𝐒𝐞𝐥𝐞𝐜𝐭,𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤,𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
+  - {name: 𝐏𝐑𝐎𝐗𝐘, type: select, proxies: [𝐀𝐮𝐭𝐨,𝐒𝐞𝐥𝐞𝐜𝐭,𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧], icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
   - {name: 𝐀𝐮𝐭𝐨, type: url-test, include-all: true, interval: 300, tolerance: 50, icon: https://ghp.ci/https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
   - {name: 𝐒𝐞𝐥𝐞𝐜𝐭, type: select, include-all: true, icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png }
   - {name: 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧, type: load-balance, strategy: consistent-hashing, include-all: true, interval: 300, tolerance: 50, icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Roundrobin.png }
