@@ -9,4 +9,4 @@ bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/r
 bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine, script-path=https://raw.githubusercontent.com/1653379593/Surge/refs/heads/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bili*.*, *.bilibili.*, grpc.biliapi.net, *biliapi.net
+hostname = %APPEND% app.bilibili.com, app.biliapi.net
