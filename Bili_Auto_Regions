@@ -10,4 +10,4 @@ Bili Search = type=http-request,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(com
 bilibili_cc_16 = type=http-response, pattern=^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_cc.js, timeout=60, script-update-interval=0
 
 [MITM]
-hostname = ap?.bili*i.com, ap?.bili*i.net,aisubtitle.hdslb.com,i0.hdslb.com
+hostname = ap?.bili*i.com, ap?.bili*i.net, aisubtitle.hdslb.com, i0.hdslb.com
