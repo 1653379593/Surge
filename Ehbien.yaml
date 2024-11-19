@@ -1,6 +1,6 @@
 #分流分组
 proxy-groups:
-  - name: "𝐏𝐑𝐎𝐗𝐘"
+  - name: 𝐏𝐑𝐎𝐗𝐘
     type: select
     proxies:
       - 𝐀𝐮𝐭𝐨
@@ -8,40 +8,40 @@ proxy-groups:
       - 𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤
       - 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
-  - name: "𝐀𝐮𝐭𝐨"
+  - name: 𝐀𝐮𝐭𝐨
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     icon: https://mirror.ghproxy.com/https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
-  - name: "𝐒𝐞𝐥𝐞𝐜𝐭"
+  - name: 𝐒𝐞𝐥𝐞𝐜𝐭
     type: select
     include-all: true
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
-  - name: "𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤"
+  - name: 𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤
     type: fallback
     interval: 300
     tolerance: 50
     include-all: true
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Available.png
-  - name: "𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧"
+  - name: 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧
     type: load-balance
     interval: 300
     tolerance: 50
     include-all: true
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Roundrobin.png
-  - name: "𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢"
+  - name: 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
     type: select
       - DIRECT
       - 𝐇𝐊
       - 𝐓𝐖
     icon: https://mirror.ghproxy.com/https://github.com/Orz-3/face/blob/master/Bili.png
-  - name: "𝐁𝐚𝐡𝐚𝐦𝐮𝐭"
+  - name: 𝐁𝐚𝐡𝐚𝐦𝐮𝐭
     type: select
       - 𝐇𝐊
       - 𝐓𝐖
     icon: https://mirror.ghproxy.com/https://github.com/Orz-3/mini/blob/master/Color/Bahamut.png
-  - name: "𝐓𝐰𝐢𝐭𝐜𝐡"
+  - name: 𝐓𝐰𝐢𝐭𝐜𝐡
     type: select
       - 𝐏𝐑𝐎𝐗𝐘
       - 𝐇𝐊
@@ -50,7 +50,7 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     icon: https://mirror.ghproxy.com/https://github.com/1653379593/The-picture/blob/master/Twitch.png
-  - name: "𝐆𝐀𝐌𝐄"
+  - name: 𝐆𝐀𝐌𝐄
     type: select
       - DIRECT
       - 𝐇𝐊
@@ -59,7 +59,7 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
-  - name: "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦"
+  - name: 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
     type: select
       - 𝐏𝐑𝐎𝐗𝐘
       - 𝐇𝐊
@@ -68,7 +68,7 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-  - name: "𝐌𝐢𝐜𝐫𝐨𝐬𝐨𝐟𝐭"
+  - name: 𝐌𝐢𝐜𝐫𝐨𝐬𝐨𝐟𝐭
     type: select
       - DIRECT
       - 𝐏𝐑𝐎𝐗𝐘
@@ -78,7 +78,7 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Microsoft.png
-  - name: "𝐆𝐨𝐨𝐠𝐥𝐞"
+  - name: 𝐆𝐨𝐨𝐠𝐥𝐞
     type: select
       - DIRECT
       - 𝐏𝐑𝐎𝐗𝐘
@@ -88,12 +88,12 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
-  - name: "𝐀𝐝𝐁𝐥𝐨𝐜𝐤"
+  - name: 𝐀𝐝𝐁𝐥𝐨𝐜𝐤
     type: select
       - REJECT
       - DIRECT
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
-  - name: "𝐅𝐢𝐧𝐚𝐥"
+  - name: 𝐅𝐢𝐧𝐚𝐥
     type: select
       - 𝐏𝐑𝐎𝐗𝐘
       - 𝐇𝐊
@@ -102,35 +102,35 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
-  - name: "𝐇𝐊"
+  - name: 𝐇𝐊
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)港|hk|hongkong|hong kong"
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-  - name: "𝐓𝐖"
+  - name: 𝐓𝐖
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)港|hk|hongkong|hong kong"
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-  - name: "𝐒𝐆"
+  - name: 𝐒𝐆
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)港|hk|hongkong|hong kong"
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-  - name: "𝐉𝐏"
+  - name: 𝐉𝐏
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)港|hk|hongkong|hong kong"
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-  - name: "𝐔𝐒"
+  - name: 𝐔𝐒
     type: url-test
     interval: 300
     tolerance: 50
