@@ -53,16 +53,6 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     icon: https://mirror.ghproxy.com/https://github.com/1653379593/The-picture/blob/master/Twitch.png
-  - name: 𝐆𝐀𝐌𝐄
-    type: select
-    proxies:
-      - DIRECT
-      - 𝐇𝐊
-      - 𝐓𝐖
-      - 𝐒𝐆
-      - 𝐉𝐏
-      - 𝐔𝐒
-    icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
   - name: 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
     type: select
     proxies:
@@ -73,6 +63,16 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+  - name: 𝐆𝐀𝐌𝐄
+    type: select
+    proxies:
+      - DIRECT
+      - 𝐇𝐊
+      - 𝐓𝐖
+      - 𝐒𝐆
+      - 𝐉𝐏
+      - 𝐔𝐒
+    icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
   - name: 𝐌𝐢𝐜𝐫𝐨𝐬𝐨𝐟𝐭
     type: select
     proxies:
