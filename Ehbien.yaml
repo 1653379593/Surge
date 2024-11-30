@@ -103,6 +103,7 @@ proxy-groups:
   - name: 𝐅𝐢𝐧𝐚𝐥
     type: select
     proxies:
+      - DIRECT
       - 𝐏𝐑𝐎𝐗𝐘
       - 𝐇𝐊
       - 𝐓𝐖
