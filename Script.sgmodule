@@ -10,4 +10,3 @@
 
 [MITM]
 hostname = %APPEND% ap?.bilibili.com, grpc.biliapi.net, www.bilibili.com, m.bilibili.com, *live.bilibili.com
-
