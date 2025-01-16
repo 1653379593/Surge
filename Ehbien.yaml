@@ -77,6 +77,17 @@ proxy-groups:
     proxies:
       - 𝐏𝐑𝐎𝐗𝐘
     icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/github.png
+    - name: 𝐆𝐨𝐨𝐠𝐥𝐞
+    type: select
+    proxies:
+      - DIRECT
+      - 𝐏𝐑𝐎𝐗𝐘
+      - 𝐇𝐊
+      - 𝐓𝐖
+      - 𝐒𝐆
+      - 𝐉𝐏
+      - 𝐔𝐒
+    icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
   - name: 𝐀𝐝𝐁𝐥𝐨𝐜𝐤
     type: select
     proxies:
@@ -244,6 +255,7 @@ rules:
   - RULE-SET,Telegram,𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
   - RULE-SET,Game,𝐆𝐀𝐌𝐄
   - RULE-SET,Github,𝐆𝐢𝐭𝐡𝐮𝐛
+  - RULE-SET,Google,𝐆𝐨𝐨𝐠𝐥𝐞
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Download,DIRECT
   - RULE-SET,Lan,DIRECT
