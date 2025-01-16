@@ -76,7 +76,7 @@ proxy-groups:
     type: select
     proxies:
       - 𝐏𝐑𝐎𝐗𝐘
-    icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
+    icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/github.png
   - name: 𝐀𝐝𝐁𝐥𝐨𝐜𝐤
     type: select
     proxies:
