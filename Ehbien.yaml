@@ -258,7 +258,7 @@ rules:
   - RULE-SET,Game,𝐆𝐀𝐌𝐄
   - RULE-SET,Github,𝐆𝐢𝐭𝐡𝐮𝐛
   - RULE-SET,Google,𝐆𝐨𝐨𝐠𝐥𝐞
-  - RULE-SET,Direct,DIREC
+  - RULE-SET,Direct,DIRECT
   - RULE-SET,Download,DIRECT
   - RULE-SET,ChinaIP,DIRECT
   - GEOIP,CN,DIRECT
