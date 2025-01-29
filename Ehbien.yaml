@@ -249,6 +249,8 @@ rule-providers:
 
 
 rules:
+  - RULE-SET,Lan,DIRECT
+  - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,BiliBili,𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
   - RULE-SET,Twitch,𝐓𝐰𝐢𝐭𝐜𝐡
@@ -256,10 +258,8 @@ rules:
   - RULE-SET,Game,𝐆𝐀𝐌𝐄
   - RULE-SET,Github,𝐆𝐢𝐭𝐡𝐮𝐛
   - RULE-SET,Google,𝐆𝐨𝐨𝐠𝐥𝐞
-  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Direct,DIREC
   - RULE-SET,Download,DIRECT
-  - RULE-SET,Lan,DIRECT
-  - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,ChinaIP,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,𝐅𝐢𝐧𝐚𝐥
