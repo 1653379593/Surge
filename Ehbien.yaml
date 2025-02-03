@@ -40,6 +40,7 @@ proxy-groups:
   - name: 𝐁𝐚𝐡𝐚𝐦𝐮𝐭
     type: select
     proxies:
+      - 𝐒𝐞𝐥𝐞𝐜𝐭
       - 𝐇𝐊
       - 𝐓𝐖
     icon: https://mirror.ghproxy.com/https://github.com/Orz-3/mini/blob/master/Color/Bahamut.png
