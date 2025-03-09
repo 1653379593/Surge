@@ -9,7 +9,7 @@
 
 [Map Local]
 # > BiliBili_哔哩哔哩_屏蔽广告浮窗@ddgksf2013
-^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive data-type=text data="{}" status-code=200
+#^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive data-type=text data="{}" status-code=200
 
 # > BiliBili_哔哩哔哩_Material_Ad@ddgksf2013
 ^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report data-type=text data="{}" status-code=200
