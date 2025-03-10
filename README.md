@@ -67,4 +67,4 @@
 
 * [@lowking](https://github.com/lowking/Scripts)
 
-* [@墨鱼](https://github.com/ddgksf2013/ddgksf2013))
+* [@墨鱼](https://github.com/ddgksf2013/ddgksf2013)
