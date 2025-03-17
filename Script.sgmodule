@@ -46,7 +46,7 @@ bilibili_json = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com
 bilibili_json = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
 
 # > BiliBili_哔哩哔哩_推荐去广告@ddgksf2013
-bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
+#bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
 
 # > BiliBili_哔哩哔哩_追番去广告@ddgksf2013
 bilibili_json = type=http-response, pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
