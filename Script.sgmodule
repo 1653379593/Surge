@@ -27,9 +27,6 @@ bilibili_json = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com
 # ～ BiliBili_哔哩哔哩_直播去广告@bm7
 bilibili_json = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
 
-# ～ BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
-bilibili_json = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
-
 # ～ BiliBili_哔哩哔哩_推荐去广告@ddgksf2013
 bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
 
