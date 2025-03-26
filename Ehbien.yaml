@@ -6,42 +6,42 @@ proxy-groups:
       - 𝐒𝐞𝐥𝐞𝐜𝐭
       - 𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤
       - 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
   - name: 𝐀𝐮𝐭𝐨
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
-    icon: https://ghp.ci/https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
+    icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png
   - name: 𝐒𝐞𝐥𝐞𝐜𝐭
     type: select
     include-all: true
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
   - name: 𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤
     type: fallback
     interval: 300
     tolerance: 50
     include-all: true
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Available.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Available.png
   - name: 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧
     type: load-balance
     interval: 300
     tolerance: 50
     include-all: true
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Roundrobin.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Roundrobin.png
   - name: 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
     type: select
     proxies:
       - DIRECT
       - 𝐇𝐊
       - 𝐓𝐖
-    icon: https://ghp.ci/https://github.com/Orz-3/face/blob/master/Bili.png
+    icon: https://github.com/Orz-3/face/blob/master/Bili.png
   - name: 𝐁𝐚𝐡𝐚𝐦𝐮𝐭
     type: select
     proxies:
       - 𝐇𝐊
       - 𝐓𝐖
-    icon: https://ghp.ci/https://github.com/Orz-3/mini/blob/master/Color/Bahamut.png
+    icon: https://github.com/Orz-3/mini/blob/master/Color/Bahamut.png
   - name: 𝐓𝐰𝐢𝐭𝐜𝐡
     type: select
     proxies:
@@ -51,7 +51,7 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-    icon: https://ghp.ci/https://github.com/1653379593/The-picture/blob/master/Twitch.png
+    icon: https://github.com/1653379593/The-picture/blob/master/Twitch.png
   - name: 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
     type: select
     proxies:
@@ -61,7 +61,7 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
   - name: 𝐆𝐀𝐌𝐄
     type: select
     proxies:
@@ -71,12 +71,12 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
   - name: 𝐆𝐢𝐭𝐡𝐮𝐛
     type: select
     proxies:
       - 𝐏𝐑𝐎𝐗𝐘
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/github.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/github.png
   - name: 𝐆𝐨𝐨𝐠𝐥𝐞
     type: select
     proxies:
@@ -87,13 +87,13 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
   - name: 𝐀𝐝𝐁𝐥𝐨𝐜𝐤
     type: select
     proxies:
       - REJECT
       - DIRECT
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
   - name: 𝐅𝐢𝐧𝐚𝐥
     type: select
     proxies:
@@ -104,42 +104,42 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
   - name: 𝐇𝐊
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)香港|Hong Kong|HK|🇭🇰"
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
   - name: 𝐓𝐖
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)台湾|Taiwan|TW|🇹🇼"
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
   - name: 𝐒𝐆
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)新加坡|狮城|Singapore|SG|🇸🇬"
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
   - name: 𝐉𝐏
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)日本|Japan|JP|🇯🇵"
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
   - name: 𝐔𝐒
     type: url-test
     interval: 300
     tolerance: 50
     include-all: true
     filter: "(?i)美国|USA|US|🇺🇸"
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
   - name: GLOBAL
     type: select
     proxies:
@@ -154,91 +154,91 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
     include-all: true
-    icon: https://ghp.ci/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 
 
 
 
 rule-providers:
   BiliBili:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
     path: ./ruleset/BiliBili.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Bahamut:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml
     path: ./ruleset/Bahamut.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Twitch:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml
     path: ./ruleset/Twitch.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Telegram:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
     path: ./ruleset/Telegram.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Game:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
     path: ./ruleset/Game.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Github:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
     path: ./ruleset/GitHub.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Google:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
     path: ./ruleset/Google.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Direct:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
     path: ./ruleset/Direct.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Download:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
     path: ./ruleset/Download.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   Lan:
-    url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
     path: ./ruleset/Lan.yaml
     behavior: classical
     interval: 86400
     format: yaml
     type: http
   AdBlock:
-    url: https://ghp.ci/https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt
+    url: https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt
     path: ./ruleset/anti-ad-clash.txt
     behavior: domain
     interval: 86400
     format: text
     type: http
   ChinaIP:
-    url: https://ghp.ci/https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/clash-rule-provider.yml
+    url: https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/clash-rule-provider.yml
     path: ./ruleset/ChinaIP.yaml
     behavior: ipcidr
     interval: 86400
