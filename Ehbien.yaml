@@ -249,7 +249,6 @@ rule-providers:
 
 
 rules:
-  - RULE-SET,Lan,DIRECT
   - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,BiliBili,𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
@@ -261,5 +260,6 @@ rules:
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Download,DIRECT
   - RULE-SET,ChinaIP,DIRECT
+  - RULE-SET,Lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,𝐅𝐢𝐧𝐚𝐥
