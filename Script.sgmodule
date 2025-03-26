@@ -1,5 +1,7 @@
-#!name=BilibiliAds
-#!desc=BilibiliAds
+#!name=Ehbien
+#!desc=哔哩哔哩去广告+外观布局
+#!system=ios
+
 
 [URL Rewrite]
 # ～ BiliBili_哔哩哔哩_屏蔽DefaultWord@ddgksf2013
