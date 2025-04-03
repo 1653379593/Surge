@@ -162,8 +162,8 @@ proxy-groups:
     
 rule-providers:
   Ehbien:
-    url: https://raw.githubusercontent.com/1653379593/Surge/refs/heads/master/miscellaneous.yaml
-    path: ./ruleset/miscellaneous.yaml
+    url: https://raw.githubusercontent.com/1653379593/Surge/refs/heads/master/Rouler.yaml
+    path: ./ruleset/Rouler.yaml
     behavior: classical
     interval: 86400
     format: yaml
