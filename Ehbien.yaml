@@ -250,8 +250,8 @@ rule-providers:
 
 
 rules:
-  - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,Ehbien,𝐏𝐑𝐎𝐗𝐘
+  - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,BiliBili,𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
   - RULE-SET,Twitch,𝐓𝐰𝐢𝐭𝐜𝐡
