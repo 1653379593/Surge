@@ -243,7 +243,7 @@ rule-providers:
 
 
 rules:
-  - DOMAIN-SUFFIX,wallhaven.cc,𝐏𝐑𝐎𝐗𝐘
+  - DOMAIN-SUFFI,Xwallhaven.cc
   - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,BiliBili,𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
