@@ -246,13 +246,13 @@ rules:
   - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,BiliBili,𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
-  - RULE-SET,Github,𝐆𝐢𝐭𝐡𝐮𝐛
-  - RULE-SET,Google,𝐆𝐨𝐨𝐠𝐥𝐞
   - RULE-SET,Twitch,𝐓𝐰𝐢𝐭𝐜𝐡
   - RULE-SET,Telegram,𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
   - RULE-SET,Game,𝐆𝐀𝐌𝐄
+  - RULE-SET,Github,𝐆𝐢𝐭𝐡𝐮𝐛
+  - RULE-SET,Google,𝐆𝐨𝐨𝐠𝐥𝐞
+  - RULE-SET,Download,DIRECT
   - RULE-SET,ChinaIP,DIRECT
   - RULE-SET,Lan,DIRECT
-  - RULE-SET,Download,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,𝐅𝐢𝐧𝐚𝐥
