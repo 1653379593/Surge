@@ -1,5 +1,4 @@
 # NAME: Eh bien
 payload:
-  - DOMAIN-SUFFIX,vercel.app
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,wiki.metacubex.one
