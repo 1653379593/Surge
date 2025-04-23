@@ -10,9 +10,11 @@
 ^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? data="https://raw.githubusercontent.com/kokoryh/Script/master/data/blank_dict.json"
 
 [Script]
-# ～ BiliBili_哔哩哔哩_标签页处理@ddgksf2013
+# > BiliBili_哔哩哔哩_推荐去广告
+bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
+# ～ BiliBili_哔哩哔哩_标签页处理
 bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab, script-path=https://raw.githubusercontent.com/1653379593/Scripts/refs/heads/main/Bilibili_remove_ads.js, requires-body=true, max-size=-1, timeout=60
-# ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
+# ～ BiliBili_哔哩哔哩_我的页面处理
 bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine, script-path=https://raw.githubusercontent.com/1653379593/Scripts/refs/heads/main/Bilibili_remove_ads.js, requires-body=true, max-size=-1, timeout=60
 
 bilibili.searchAll = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$,requires-body=1,binary-body-mode=1,max-size=-1,engine=webview,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/bilibili.protobuf.js
