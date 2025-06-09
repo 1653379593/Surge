@@ -26,7 +26,7 @@ proxy-groups:
   - name: 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧
     icon: https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Roundrobin.png
     type: load-balance
-    strategy: consistent-hashing
+    strategy: round-robin
     interval: 300
     tolerance: 50
     include-all: true
