@@ -177,6 +177,13 @@ rule-providers:
     behavior: classical
     interval: 86400
     format: yaml
+    type: http 
+  Cloudflare:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflare/Cloudflare.yaml
+    path: ./ruleset/Cloudflare.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
     type: http
   BiliBili:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
@@ -280,6 +287,7 @@ rules:
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
   - RULE-SET,Discord,𝐏𝐑𝐎𝐗𝐘
   - RULE-SET,Ehbien,𝐏𝐑𝐎𝐗𝐘
+  - RULE-SET,Cloudflare,𝐏𝐑𝐎𝐗𝐘
   - RULE-SET,Twitch,𝐓𝐰𝐢𝐭𝐜𝐡
   - RULE-SET,YouTube,𝐘𝐨𝐮𝐓𝐮𝐛𝐞
   - RULE-SET,Telegram,𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
