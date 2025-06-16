@@ -27,7 +27,7 @@ http-response ^https?:\/\/developer\.aliyun\.com\/developer\/api\/my\/user\/getU
 cron "0 7,13 * * *" script-path=https://raw.githubusercontent.com/1653379593/Surge/refs/heads/master/aliyunbjs.js, tag=阿里云社区日常任务
 
 [MITM]
-hostname = developer.aliyun.com
+hostname = %APPEND% developer.aliyun.com
 
 ====================================
 ⚠️【免责声明】
