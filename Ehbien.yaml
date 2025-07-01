@@ -17,19 +17,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
     type: select
     include-all: true
-  - name: 𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤
-    icon: https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Available.png
-    type: fallback
-    interval: 300
-    tolerance: 50
-    include-all: true
-  - name: 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧
-    icon: https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Roundrobin.png
-    type: load-balance
-    strategy: round-robin
-    interval: 300
-    tolerance: 50
-    include-all: true
   - name: 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
     icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/bilibili.png
     type: select
@@ -158,8 +145,6 @@ proxy-groups:
       - 𝐏𝐑𝐎𝐗𝐘
       - 𝐀𝐮𝐭𝐨
       - 𝐒𝐞𝐥𝐞𝐜𝐭
-      - 𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤
-      - 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧
       - 𝐇𝐊
       - 𝐓𝐖
       - 𝐒𝐆
