@@ -15,6 +15,20 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
     type: select
     include-all: true
+  - name: 𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤
+    type: fallback
+    interval: 300
+    tolerance: 50
+    include-all: true
+    icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Available.png
+  - name: 𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧
+    type: load-balance
+    interval: 300
+    tolerance: 50
+    include-all: true
+    lazy: true
+    strategy: consistent-hashing
+    icon: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/refs/heads/master/Color/Roundrobin.png
   - name: 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
     icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/bilibili.png
     type: select
