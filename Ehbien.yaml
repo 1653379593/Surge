@@ -29,7 +29,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    lazy: true
     strategy: consistent-hashing
   - name: 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
     icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/bilibili.png
