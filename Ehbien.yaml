@@ -29,7 +29,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    strategy: consistent-hashing
+    strategy: sticky-sessions
   - name: 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
     icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/bilibili.png
     type: select
