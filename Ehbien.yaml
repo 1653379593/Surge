@@ -165,8 +165,6 @@ proxy-groups:
       - 𝐔𝐒
     include-all: true
 
-
-
     
 rule-providers:
   Ehbien:
@@ -268,9 +266,7 @@ rule-providers:
     format: yaml
     type: http
 
-
-
-
+    
 rules:
   - RULE-SET,Lan,DIRECT
   - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
