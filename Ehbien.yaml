@@ -47,6 +47,7 @@ proxy-groups:
     icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Emby.png
     type: select
     proxies:
+      - DIRECT
       - 𝐏𝐑𝐎𝐗𝐘
       - 𝐇𝐊
       - 𝐓𝐖
