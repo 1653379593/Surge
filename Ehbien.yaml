@@ -43,17 +43,6 @@ proxy-groups:
     proxies:
       - 𝐇𝐊
       - 𝐓𝐖
-  - name: 𝐄𝐦𝐛𝐲
-    icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Emby.png
-    type: select
-    proxies:
-      - DIRECT
-      - 𝐏𝐑𝐎𝐗𝐘
-      - 𝐇𝐊
-      - 𝐓𝐖
-      - 𝐒𝐆
-      - 𝐉𝐏
-      - 𝐔𝐒
   - name: 𝐓𝐰𝐢𝐭𝐜𝐡
     icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Twitch.png
     type: select
@@ -199,13 +188,6 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
-  Emby:
-    url: https://proxy.api.030101.xyz/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml
-    path: ./ruleset/Emby.yaml
-    behavior: classical
-    interval: 86400
-    format: yaml
-    type: http
   Twitch:
     url: https://proxy.api.030101.xyz/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml
     path: ./ruleset/Twitch.yaml
@@ -290,7 +272,6 @@ rules:
   - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,BiliBili,𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
-  - RULE-SET,Emby,𝐄𝐦𝐛𝐲
   - RULE-SET,Discord,𝐏𝐑𝐎𝐗𝐘
   - RULE-SET,Ehbien,𝐏𝐑𝐎𝐗𝐘
   - RULE-SET,Twitch,𝐓𝐰𝐢𝐭𝐜𝐡
