@@ -43,7 +43,7 @@ proxy-groups:
     proxies:
       - 𝐇𝐊
       - 𝐓𝐖
-  - name: Emby
+  - name: 𝐄𝐦𝐛𝐲
     icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Emby.png
     type: select
     proxies:
@@ -290,6 +290,7 @@ rules:
   - RULE-SET,AdBlock,𝐀𝐝𝐁𝐥𝐨𝐜𝐤
   - RULE-SET,BiliBili,𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢
   - RULE-SET,Bahamut,𝐁𝐚𝐡𝐚𝐦𝐮𝐭
+  - RULE-SET,Emby,𝐄𝐦𝐛𝐲
   - RULE-SET,Discord,𝐏𝐑𝐎𝐗𝐘
   - RULE-SET,Ehbien,𝐏𝐑𝐎𝐗𝐘
   - RULE-SET,Twitch,𝐓𝐰𝐢𝐭𝐜𝐡
