@@ -1,0 +1,181 @@
+[General]
+# 日志等级 warning, notify, info, verbose (默认: notify)
+loglevel = notify
+# 网络诊断
+# > Internet 测试 URL
+internet-test-url = http://www.aliyun.com
+# > 代理测速 URL
+proxy-test-url = http://www.google.com/generate_204
+# > 测速超时 (s)
+test-timeout = 3
+# IPv6 支持
+ipv6 = false
+# Wi-Fi 访问
+# > 允许 Wi-Fi 网络下其它设备访问
+allow-wifi-access = true
+# > HTTP 代理服务端口（默认 "6152"）
+# wifi-access-http-port = 6152
+# > SOCKS5 代理服务端口（默认 "6153"）
+# wifi-access-socks5-port = 6153
+# 外部控制器
+external-controller-access = admin@127.0.0.1:6170
+# 兼容性
+# > 兼容模式（默认 "禁用"）
+# compatibility-mode = 0
+# > 跳过某个域名或者IP段
+skip-proxy = 192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, 127.0.0.1, localhost, *.local
+bypass-system = true
+# 实验性支持
+# > TLS Provider: default, secure-transport, network-framework, openssl (默认: default)
+tls-provider = default
+# > 启动 Network.framework（默认不启用）
+network-framework = false
+# 其他（请先阅读手册，除非你明确知道其含义，否则不要修改任何设置）
+# > Show Reject Error Page
+show-error-page-for-reject = true
+# > Hijack DNS
+# hijack-dns =
+# > TCP Force HTTP Hosts
+# force-http-engine-hosts = example.com:80
+# > VIF Excluded Routes
+tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+# > VIF Included Routes
+tun-included-routes = 192.168.1.12/32
+# DNS 服务器
+dns-server = 119.29.29.29,223.5.5.5,system
+
+[Replica]
+# [抓取流量] => 过滤器
+# > 隐藏 Apple 请求
+hide-apple-request = true
+# > 隐藏 Crashlytics 请求
+hide-crashlytics-request = true
+# > 隐藏 UDP 会话
+hide-udp = false
+# > 关键词过滤器
+keyword-filter-type = (null)
+keyword-filter = icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk,dropbox,spys
+
+[Proxy]
+𝐑𝐞𝐣𝐞𝐜𝐭-𝐓𝐢𝐧𝐲𝐠𝐢𝐟 = reject-tinygif
+𝐑𝐞𝐣𝐞𝐜𝐭 = reject
+𝐃𝐢𝐫𝐞𝐜𝐭 = direct
+
+[Proxy Group]
+𝐏𝐫𝐨𝐱𝐲 = select, 𝐀𝐮𝐭𝐨, 𝐒𝐞𝐥𝐞𝐜𝐭, 𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤
+𝐀𝐮𝐭𝐨 = url-test, url=http://www.gstatic.com/generate_204, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, timeout=0, interval=600, tolerance=50
+𝐒𝐞𝐥𝐞𝐜𝐭 = select, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0
+𝐑𝐨𝐮𝐧𝐝𝐑𝐨𝐛𝐢𝐧 = load-balance, persistent=1, policy-path=负载均衡, update-interval=0
+𝐅𝐚𝐥𝐥𝐛𝐚𝐜𝐤 = fallback, policy-path=故障切换, url=http://www.gstatic.com/generate_204, interval=600, tolerance=50
+AsianMedia = select, 🇭🇰HK, 🇨🇳TW
+Netease music = select, copyright, 𝐃𝐢𝐫𝐞𝐜𝐭
+Telegram = select, 𝐏𝐫𝐨𝐱𝐲, 𝐃𝐢𝐫𝐞𝐜𝐭
+Twitter = select, 𝐏𝐫𝐨𝐱𝐲, DIRECT
+YouTube = select, 𝐏𝐫𝐨𝐱𝐲, 𝐃𝐢𝐫𝐞𝐜𝐭
+Speedtest = select, 𝐏𝐫𝐨𝐱𝐲, 𝐃𝐢𝐫𝐞𝐜𝐭
+Apple = select, 𝐃𝐢𝐫𝐞𝐜𝐭, 𝐏𝐫𝐨𝐱𝐲
+𝐅𝐢𝐧𝐚𝐥 = select, 𝐏𝐫𝐨𝐱𝐲, 𝐃𝐢𝐫𝐞𝐜𝐭
+𝐀𝐝 𝐁𝐥𝐨𝐜𝐤 = select, 𝐑𝐞𝐣𝐞𝐜𝐭, 𝐑𝐞𝐣𝐞𝐜𝐭-𝐓𝐢𝐧𝐲𝐠𝐢𝐟, 𝐃𝐢𝐫𝐞𝐜𝐭
+copyright = select, policy-path=https://sub.store/download/NetEaseCloudMusic, update-interval=0
+🇭🇰HK = url-test, url=http://www.gstatic.com/generate_204, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, policy-regex-filter=HK|香港, timeout=0, interval=0, tolerance=0
+🇨🇳TW = url-test, url=http://www.gstatic.com/generate_204, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, policy-regex-filter=TW|台湾, timeout=0, interval=0, tolerance=0
+🇸🇬SG = url-test, url=http://www.gstatic.com/generate_204, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, policy-regex-filter=SG|新加坡, timeout=0, interval=0, tolerance=0
+🇯🇵JP = url-test, url=http://www.gstatic.com/generate_204, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, policy-regex-filter=JP|日本, timeout=0, interval=0, tolerance=0
+🇰🇷KR = url-test, url=http://www.gstatic.com/generate_204, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, policy-regex-filter=KR|韩国, timeout=0, interval=0, tolerance=0
+🇺🇸US = url-test, url=http://www.gstatic.com/generate_204, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, policy-regex-filter=US|美国, timeout=0, interval=0, tolerance=0
+🏳️‍🌈IPLC = select, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, policy-regex-filter=IPLC|iplc
+🏳️‍🌈IEPL = select, policy-path=https://sub.store/download/collection/Agnehc, update-interval=0, policy-regex-filter=IEPL|iepl
+LeiSu = select, policy-path=https://sub.store/download/LeiSu, update-interval=0
+樱云 = select, policy-path=https://sub.store/download/yinyun
+
+[Rule]
+# CUSTOM RULE
+# Rulesets (by eHpo1 + ConnersHua）
+# > Reject
+RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list,𝐀𝐝 𝐁𝐥𝐨𝐜𝐤
+RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Tide.list,𝐀𝐝 𝐁𝐥𝐨𝐜𝐤
+# BlockOTA
+RULE-SET,https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/BlockOTA.list,𝐀𝐝 𝐁𝐥𝐨𝐜𝐤
+# Antirevoke
+RULE-SET,https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Antirevoke.list,𝐀𝐝 𝐁𝐥𝐨𝐜𝐤
+# > Youtube
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,YouTube
+# Twitter
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list,Twitter
+# Telegram
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list,Telegram
+# > Outlook、Gmail
+RULE-SET,https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Mail.list,𝐏𝐫𝐨𝐱𝐲
+# > GoogleDrive
+RULE-SET,https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/GoogleDrive.list,𝐏𝐫𝐨𝐱𝐲
+# Speedtest
+RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Speedtest.list,Speedtest
+# > Apple
+RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list,Apple
+RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list,𝐃𝐢𝐫𝐞𝐜𝐭
+# TestFlight
+# RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/TestFlight.list,𝐏𝐫𝐨𝐱𝐲
+# > Special
+RULE-SET,https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Special.list,𝐃𝐢𝐫𝐞𝐜𝐭
+# PxxBuy
+# AND,((USER-AGENT,iTunes stored*), (DOMAIN-KEYWORD,-buy.itunes.apple.com)),🧿 Pxx-Buy
+# FakeiAP
+# RULE-SET,https://raw.githubusercontent.com/tinycarrot/tinycarrot/master/Surge/FakeiAP-Filter-Surge.txt,♨️ IPA-Premium
+# >Unlock NeteaseMusic
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list,Netease music
+# > GlobalMedia
+RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list,𝐏𝐫𝐨𝐱𝐲
+# > Global
+RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list,𝐏𝐫𝐨𝐱𝐲
+# > AsianMedia
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AsianMedia/AsianMedia.list,AsianMedia
+# > Domestic
+RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list,𝐃𝐢𝐫𝐞𝐜𝐭
+# Local Area Network
+RULE-SET,LAN,𝐃𝐢𝐫𝐞𝐜𝐭
+# GeoIP China
+GEOIP,CN,𝐃𝐢𝐫𝐞𝐜𝐭
+FINAL,𝐅𝐢𝐧𝐚𝐥,dns-failed
+
+[Host]
+# CUSTOM DNS
+iosapps.itunes.apple.com = script:dnspod
+*.126.com = server:119.29.29.29
+*.126.net = server:119.29.29.29
+*.127.net = server:119.29.29.29
+*.163.com = server:119.29.29.29
+*.alicdn.com = server:223.5.5.5
+*.aliyun.com = server:223.5.5.5
+*.baidu.com = server:syslib
+*.bdstatic.com = server:syslib
+*.bilibili.com = server:119.29.29.29
+*.jd.com = server:119.28.28.28
+*.mi.com = server:119.29.29.29
+*.netease.com = server:119.29.29.29
+*.pcbeta.com = 120.52.19.113
+*.qpic.cn = server:119.28.28.28
+*.qq.com = server:119.28.28.28
+*.taobao.com = server:223.6.6.6
+*.tencent.com = server:119.28.28.28
+*.tmall.com = server:223.6.6.6
+*.weixin.com = server:119.28.28.28
+*.xiaomi.com = server:119.29.29.29
+cdn.pcbeta.attachment.inimc.com = 120.52.19.113
+cdn.pcbeta.css.inimc.com = 120.52.19.113
+cdn.pcbeta.static.inimc.com = 120.52.19.113
+hdslb.com = server:119.29.29.29
+
+[URL Rewrite]
+# CUSTOM URL
+# > Redirect Google Service
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[MITM]
+skip-server-cert-verify = true
+hostname = %APPEND%
+ca-passphrase = UNCLEWANG
+ca-p12 = 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
+
+[Script]
+# > Speed up download app ios
+dnspod = script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Surge/dnspod.js,script-update-interval=0,type=dns
