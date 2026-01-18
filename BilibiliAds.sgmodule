@@ -1,0 +1,21 @@
+#!name=Ehbien
+#!desc=哔哩哔哩去广告+外观布局
+#!system=ios
+
+[Map Local]
+^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/show data-type=text data=" " status-code=200
+
+[Script]
+# > 屏蔽开屏广告
+bilibili_json = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list, script-path=https://raw.githubusercontent.com/1653379593/Scripts/refs/heads/main/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
+# > 首页推荐流净化
+bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index, script-path=https://raw.githubusercontent.com/1653379593/Scripts/refs/heads/main/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
+# > 底部标签栏自定义
+bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab, script-path=https://raw.githubusercontent.com/1653379593/Scripts/refs/heads/main/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
+# > 我的页面
+bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine, script-path=https://raw.githubusercontent.com/1653379593/Scripts/refs/heads/main/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
+# > 首页右上角活动图标
+bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity, script-path=https://raw.githubusercontent.com/1653379593/Scripts/refs/heads/main/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% app.bilibili.com
